@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05523ad-a684-43a9-8eb3-3452518c6b20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Quant.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/improved_macd_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/improved_macd_test.py" afterDir="false" />
-    </list>
+    <list default="true" id="c05523ad-a684-43a9-8eb3-3452518c6b20" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711266660207</updated>
       <workItem from="1711266661429" duration="33000" />
-      <workItem from="1711266700184" duration="25881000" />
+      <workItem from="1711266700184" duration="25895000" />
     </task>
     <servers />
   </component>
