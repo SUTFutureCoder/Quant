@@ -63,8 +63,8 @@ class ImprovedMACDStrategy(bt.Strategy):
 
 if __name__ == '__main__':
     ibstore = IBStore('127.0.0.1', 4002, clientId=1)
-    df = ibstore.get_data('NVDA')
-    # df = ibstore.get_data('AAPL')
+    # df = ibstore.get_data('NVDA')
+    df = ibstore.get_data('AAPL')
 
     # Ensure the 'date' column is in the correct datetime format
     df['date'] = pd.to_datetime(df['date'])
@@ -76,6 +76,10 @@ if __name__ == '__main__':
     # Initialize and run Cerebro
     cerebro = bt.Cerebro(stdstats=True, cheat_on_open=True, optreturn=False)
     cerebro.optstrategy(ImprovedMACDStrategy)
+    # cerebro.optstrategy(ImprovedMACDStrategy, fast=range(10, 15), slow=range(20, 30), signal=range(5, 10))
+    # Best Sharpe Ratio: 0.801877924498146
+    # With Parameters: Fast=10, Slow=27, Signal=5
+    # cerebro.optstrategy(ImprovedMACDStrategy, fast=10, slow=27, signal=5)
     cerebro.addanalyzer(bt.analyzers.SharpeRatio, _name='sharpe')
     cerebro.addanalyzer(bt.analyzers.Returns, _name='returns')
     cerebro.broker.set_cash(100000)
