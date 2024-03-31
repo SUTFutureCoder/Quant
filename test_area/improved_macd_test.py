@@ -75,10 +75,17 @@ if __name__ == '__main__':
 
     # Initialize and run Cerebro
     cerebro = bt.Cerebro(stdstats=True, cheat_on_open=True, optreturn=False)
-    cerebro.optstrategy(ImprovedMACDStrategy)
+
+    # 默认参数
+    # cerebro.optstrategy(ImprovedMACDStrategy)
+
+    # 范围里面找最优解，查看控制台With Parameters输出
     # cerebro.optstrategy(ImprovedMACDStrategy, fast=range(10, 15), slow=range(20, 30), signal=range(5, 10))
+
     # Best Sharpe Ratio: 0.801877924498146
     # With Parameters: Fast=10, Slow=27, Signal=5
+
+    # 根据With Parameters输出，配置最优解
     # cerebro.optstrategy(ImprovedMACDStrategy, fast=10, slow=27, signal=5)
     cerebro.addanalyzer(bt.analyzers.SharpeRatio, _name='sharpe')
     cerebro.addanalyzer(bt.analyzers.Returns, _name='returns')
@@ -98,6 +105,7 @@ if __name__ == '__main__':
                 best_sharpe = sharpe
                 best_params = params
 
+    # 根据
     print(f"Best Sharpe Ratio: {best_sharpe}")
     print(f"With Parameters: Fast={best_params.fast}, Slow={best_params.slow}, Signal={best_params.signal}")
     cerebro.plot()
