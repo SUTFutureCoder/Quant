@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05523ad-a684-43a9-8eb3-3452518c6b20" name="Changes" comment="" />
+    <list default="true" id="c05523ad-a684-43a9-8eb3-3452518c6b20" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ib_trading_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_area/ib_trading_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/improved_macd_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_area/improved_macd_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macd_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_area/macd_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sma_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_area/sma_test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +51,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_area" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="ib_trading_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -62,7 +70,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ib_trading_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_area/ib_trading_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711266660207</updated>
       <workItem from="1711266661429" duration="33000" />
-      <workItem from="1711266700184" duration="25895000" />
+      <workItem from="1711266700184" duration="25926000" />
     </task>
     <servers />
   </component>
@@ -104,7 +112,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ib_trading_test.py</url>
+          <url>file://$PROJECT_DIR$/test_area/ib_trading_test.py</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
